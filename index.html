@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastruck | Foodtruck en Murcia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="hero" id="inicio">
+        <nav class="navbar">
+            <div class="logo">Fastruck</div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir menú">
+            <label for="nav-toggle" class="burger" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#historia">Nuestra Historia</a></li>
+                <li><a href="#ubicaciones">Ubicaciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <span class="tag">Street food gourmet en Murcia</span>
+            <h1>Sabores urbanos servidos a toda velocidad</h1>
+            <p>Descubre la fusión perfecta entre tradición murciana e inspiración internacional. Fastruck te sorprende con propuestas frescas, locales y muy sabrosas.</p>
+            <a class="button" href="#menu">Ver menú</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="highlights" aria-label="Especialidades de Fastruck">
+            <article class="highlight-card">
+                <h3>Ingredientes de proximidad</h3>
+                <p>Colaboramos con productores murcianos para garantizar frescura y sabor en cada bocado.</p>
+            </article>
+            <article class="highlight-card">
+                <h3>Recetas creativas</h3>
+                <p>Platos inspirados en gastronomías del mundo con el toque mediterráneo que nos define.</p>
+            </article>
+            <article class="highlight-card">
+                <h3>Experiencia sobre ruedas</h3>
+                <p>Nos encontrarás en los rincones más vibrantes de Murcia y sus alrededores.</p>
+            </article>
+        </section>
+
+        <section class="menu" id="menu" aria-labelledby="menu-title">
+            <div class="section-header">
+                <span class="section-tag">Menú de temporada</span>
+                <h2 id="menu-title">Sabores estrella</h2>
+                <p>Renovamos nuestra carta cada temporada para aprovechar lo mejor de cada estación.</p>
+            </div>
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <h3>Burger "Huerta Viva"</h3>
+                    <p>Carne de vaca madurada, queso de cabra, pimientos asados y alioli de limón.</p>
+                    <span class="price">9,50 €</span>
+                </article>
+                <article class="menu-item">
+                    <h3>Tacos del Segura</h3>
+                    <p>Pollo adobado, pico de gallo de tomate murciano y salsa verde casera.</p>
+                    <span class="price">8,00 €</span>
+                </article>
+                <article class="menu-item">
+                    <h3>Wrap Mediterráneo</h3>
+                    <p>Falafel crujiente, hummus de pimentón, verduras asadas y yogur de hierbabuena.</p>
+                    <span class="price">7,50 €</span>
+                </article>
+                <article class="menu-item">
+                    <h3>Patatas trufadas Fastruck</h3>
+                    <p>Patatas gajo con salsa de queso curado y aceite de trufa.</p>
+                    <span class="price">4,50 €</span>
+                </article>
+                <article class="menu-item">
+                    <h3>Limonada de la huerta</h3>
+                    <p>Limón de la Vega Alta, hierbabuena fresca y un toque de jengibre.</p>
+                    <span class="price">3,00 €</span>
+                </article>
+                <article class="menu-item">
+                    <h3>Brownie volcánico</h3>
+                    <p>Chocolate 70%, crumble de almendra marcona y helado artesanal.</p>
+                    <span class="price">4,00 €</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="story" id="historia">
+            <div class="story-content">
+                <div class="section-header">
+                    <span class="section-tag">Quiénes somos</span>
+                    <h2>Nuestra historia sobre ruedas</h2>
+                </div>
+                <p>Nacimos en Murcia con la idea de llevar la creatividad gastronómica a las calles. Tras años trabajando en restaurantes tradicionales, decidimos apostar por la libertad del asfalto para acercar nuestros sabores a más gente.</p>
+                <p>Hoy seguimos explorando nuevas recetas, respetando los productos de proximidad y creando experiencias memorables en cada parada.</p>
+                <a class="button secondary" href="#contacto">Reserva nuestro foodtruck</a>
+            </div>
+            <div class="story-image" role="presentation" aria-hidden="true"></div>
+        </section>
+
+        <section class="locations" id="ubicaciones" aria-labelledby="locations-title">
+            <div class="section-header">
+                <span class="section-tag">Dónde encontrarnos</span>
+                <h2 id="locations-title">Próximas paradas</h2>
+            </div>
+            <div class="timeline">
+                <article class="timeline-card">
+                    <span class="date">Viernes</span>
+                    <h3>Plaza de las Flores</h3>
+                    <p>19:00 - 23:30 · Ambiente afterwork con música en directo.</p>
+                </article>
+                <article class="timeline-card">
+                    <span class="date">Sábado</span>
+                    <h3>Festival Río Segura</h3>
+                    <p>12:00 - 01:00 · Street market de productores locales y artesanía.</p>
+                </article>
+                <article class="timeline-card">
+                    <span class="date">Domingo</span>
+                    <h3>Parque de Fofó</h3>
+                    <p>12:30 - 17:00 · Picnic familiar con actividades infantiles.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="cta" aria-labelledby="cta-title">
+            <div class="cta-content">
+                <h2 id="cta-title">¿Organizas un evento en Murcia?</h2>
+                <p>Llevamos la cocina de Fastruck hasta tu celebración. Bodas, eventos de empresa o fiestas privadas con una propuesta fresca y desenfadada.</p>
+                <a class="button" href="#contacto">Pide tu presupuesto</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contacto">
+        <div class="footer-content">
+            <div>
+                <h3>Fastruck</h3>
+                <p>Foodtruck gourmet en Murcia</p>
+            </div>
+            <div class="footer-info">
+                <p><strong>Teléfono:</strong> <a href="tel:+34600111222">+34 600 111 222</a></p>
+                <p><strong>Email:</strong> <a href="mailto:hola@fastruck.es">hola@fastruck.es</a></p>
+                <p><strong>Instagram:</strong> <a href="https://www.instagram.com/fastruck" target="_blank" rel="noopener">@fastruck</a></p>
+            </div>
+            <form class="footer-form" aria-label="Suscripción a novedades">
+                <label for="email" class="form-label">Suscríbete para conocer nuestras rutas</label>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <p class="footer-copy">© <span id="year"></span> Fastruck. Hecho con sabor en Murcia.</p>
+    </footer>
+
+    <script>
+        const yearElement = document.getElementById('year');
+        if (yearElement) {
+            yearElement.textContent = new Date().getFullYear();
+        }
+
+        const navToggle = document.getElementById('nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        if (navToggle && navLinks) {
+            navToggle.addEventListener('change', () => {
+                if (navToggle.checked) {
+                    navLinks.classList.add('open');
+                } else {
+                    navLinks.classList.remove('open');
+                }
+            });
+
+            navLinks.querySelectorAll('a').forEach(link =>
+                link.addEventListener('click', () => {
+                    navToggle.checked = false;
+                    navLinks.classList.remove('open');
+                })
+            );
+        }
+    </script>
+</body>
+</html>
